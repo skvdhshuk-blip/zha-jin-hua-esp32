@@ -1,0 +1,25 @@
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
+.vscode/
+.idea/
+.DS_Store
+__pycache__/
+
+# 本地 WeaveForge 工作区及原稿副本。构建输入在 assets/images 和 assets/sounds。
+/.weaveforge/
+/assets/原始素材/
+.DS_Store
+__pycache__/
+
+# 本地 WeaveForge 工作区及原稿副本。构建输入在 assets/images 和 assets/sounds。
+/.weaveforge/
+/assets/原始素材/
+
+# Generated repository-local links; canonical skill sources live in skills/.
+/.agents/skills/passport-develop
+/.agents/skills/passport-setup
+/.agents/skills/passport-build
+/.agents/skills/passport-device-test
+/.agents/skills/passport-debug
